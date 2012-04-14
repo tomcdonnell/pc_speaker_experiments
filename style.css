@@ -1,0 +1,41 @@
+/*
+ * vim: ts=3 sw=3 et wrap co=100
+ */
+
+table
+{
+   border-collapse: collapse;
+}
+
+tr.topBorderOctaveBoundary > td,
+tr.topBorderOctaveBoundary > th
+{
+   border-top-color: #000;
+}
+
+tr.bottomBorderOctaveBoundary > td,
+tr.bottomBorderOctaveBoundary > th
+{
+   border-bottom-color: #000;
+}
+
+td, th
+{
+   border-style: solid;
+   border-color: #ccc;
+   border-width: 1px;
+   height: 5px;
+   width: 5px;
+   background-color: #ffffff;
+}
+
+th
+{
+   white-space: nowrap;
+   font-size: xx-small;
+}
+
+td.selected
+{
+   background-color: #ff0000;
+}
