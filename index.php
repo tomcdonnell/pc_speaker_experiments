@@ -18,9 +18,9 @@ $filesCss = array
 
 $filesJs = array
 (
-   '../library/tom/js/contrib/jquery/1.5/jquery_minified.js',
-   '../library/tom/js/utils/utils.js'                       ,
-   '../library/tom/js/utils/utilsValidator.js'              ,
+   'lib_tom/js/contrib/jquery/1.5/jquery_minified.js',
+   'lib_tom/js/utils/utils.js'                       ,
+   'lib_tom/js/utils/utilsValidator.js'              ,
    'main.js'
 );
 
@@ -50,6 +50,7 @@ function echoHtmlForMusicGrid($indent)
 
       for ($c = 0; $c < 128; ++$c)
       {
+$value = '';
          echo
          (
             ($c == 0)?
